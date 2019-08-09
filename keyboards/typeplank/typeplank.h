@@ -25,14 +25,6 @@
  * The second converts the arguments into a two-dimensional array which
  * represents the switch matrix.
  */
-#define LAYOUT( \
-    k00, k01, k02, \
-      k10,  k11   \
-) \
-{ \
-    { k00, k01,   k02 }, \
-    { k10, KC_NO, k11 }, \
-}
 
 #define KEYMAP( \
     K000, K001, K002, K003, K004, K005, K006, K007, K008, K009, K010, K011, K012, K013, \
