@@ -8,6 +8,8 @@
     #include "5x6.h"
 #elif KEYBOARD_handwired_dactyl_manuform_5x7
     #include "5x7.h"
+#elif KEYBOARD_handwired_dactyl_manuform_enikesha
+    #include "enikesha.h"
 #elif KEYBOARD_handwired_dactyl_manuform_6x6
     #include "6x6.h"
 #elif KEYBOARD_handwired_dactyl_manuform_dmote_62key
@@ -20,7 +22,7 @@
 #ifdef USE_I2C
 #include <stddef.h>
 #ifdef __AVR__
-	#include <avr/io.h>
-	#include <avr/interrupt.h>
+    #include <avr/io.h>
+    #include <avr/interrupt.h>
 #endif
 #endif
